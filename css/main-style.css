@@ -1,0 +1,420 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+i {
+    font-style: normal;
+}
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url("reset.css");
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "cwTeXYen", Helvetica, Arial, sans-serif;
+    line-height: unset;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    font-size: 1rem;
+    color: #717071;
+    background: #fff url(../img/btn_bg.jpg) 0 0/cover no-repeat fixed;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans TC", Verdana, "sans-serif";
+}
+
+.taiwan_map a:focus {
+    outline: none
+}
+
+.c-full-1-block * {
+    box-sizing: border-box;
+}
+
+.sr-only {
+    position: absolute;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    z-index: -999;
+}
+
+.sr-only:focus,
+.sr-only:active {
+    color: white;
+    background-color: #23d0d8;
+    top: auto;
+    left: calc(50% - 110px);
+    width: 220px;
+    height: auto;
+    overflow: auto;
+    margin: 10px auto;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 1em;
+    z-index: 999;
+    position: absolute;
+}
+
+a:focus-visible {
+    outline: 2px #ff0004 dotted !important;
+}
+
+a {
+    color: #666;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:visited {
+    outline: none;
+    text-decoration: none;
+}
+
+header {
+    margin-top: 50px;
+    width: 555px;
+}
+
+.width1744 {
+    width: 1744px;
+    position: relative;
+    margin: auto;
+    z-index: 1;
+}
+
+header .width1744 {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+}
+
+nav {
+    width: 100%;
+    margin-top: 23px;
+}
+
+a.accesskey.u {
+    text-indent: unset;
+    color: #333;
+}
+
+h1 a {
+    background: url(../img/index_logo.svg) 0 0/cover no-repeat;
+    height: 75px;
+    width: 437px;
+    display: block;
+}
+
+
+/* 子選單 */
+
+.submenu {
+    display: grid;
+    margin: 123px 0;
+}
+
+.submenu li {
+    font-size: 1.125rem;
+    font-weight: bold;
+    display: flex;
+    margin-bottom: 18px;
+    z-index: 1;
+    position: relative;
+    width: max-content;
+}
+
+.submenu li a {
+    color: #333333;
+    transition: all 0.1s;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.submenu li span {
+    display: flex;
+    height: 67px;
+    width: 267px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    color: #000;
+    font-size: 1.688rem;
+    background: url(../img/btn_bg.svg) center/contain no-repeat;
+}
+
+.submenu li span:hover {
+    background: url(../img/btn_bg_hover.svg) center/contain no-repeat;
+}
+
+.submenu li.nsdnmenu:hover>a span {
+    background: url(../img/btn_bg_hover.svg) center/contain no-repeat;
+}
+
+.submenu li.nsdnmenu:hover span,
+.submenu li.nsdnmenu:focus span,
+.submenu li.nsdnmenu:focus-within span {
+    background: url(../img/btn_bg_hover.svg) center/contain no-repeat;
+}
+
+.submenu li.nsdnmenu.widthauto>.hasChild ul {
+    display: flex;
+    width: calc(100% / 2 - 10px);
+}
+
+.submenu li.nsdnmenu>.hasChild li ul.Click_menu {
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 3px 0 0;
+    width: 100%;
+}
+
+.submenu li.nsdnmenu.widthauto>.hasChild li a {
+    padding: 8px 8px;
+    margin: 3px 0;
+}
+
+.submenu li.nsdnmenu.widthauto>.hasChild ul li {
+    flex-direction: unset;
+    justify-content: space-between
+}
+
+.submenu li.nsdnmenu.widthauto>.hasChild li a {
+    padding: 8px 10px;
+    margin: 3px 0;
+}
+
+.submenu li.nsdnmenu.widthauto>.hasChild ul li ul li {
+    flex-direction: unset;
+    justify-content: space-around;
+}
+
+.submenu li>.hasChild {
+    z-index: 2;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    list-style: none;
+    text-align: left;
+    width: max-content;
+    pointer-events: none;
+    opacity: 0;
+    padding-left: 10px;
+}
+
+.submenu li.nsdnmenu.widthauto:hover>.hasChild,
+.submenu li.nsdnmenu.widthauto:focus-within .hasChild {
+    width: 100%;
+}
+
+.submenu li:hover>.hasChild,
+.submenu li:focus-within .hasChild {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.submenu li.search:hover>.hasChild,
+.submenu li.search:focus-within .hasChild {
+    background-color: #eee;
+    width: 100%
+}
+
+.submenu li>.hasChild>.width1340 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.submenu li>.hasChild ul {
+    justify-content: center;
+}
+
+.submenu li>.hasChild li {
+    display: flex;
+    flex-flow: column;
+    min-height: auto;
+    margin-bottom: 3px;
+}
+
+.submenu li>.hasChild li a {
+    display: inline-flex;
+    font-size: 1.375rem;
+    background: #C6D8A9;
+    border: #FFF 2px solid;
+    border-radius: 10px;
+    width: 220PX;
+    height: 54px;
+    margin-bottom: 3px;
+    align-items: center;
+    justify-content: center;
+}
+
+.submenu li>.hasChild li a:hover,
+.submenu li>.hasChild li a:focus {
+    color: #000;
+    background-color: #E8E475;
+}
+
+
+/* footer */
+
+footer {
+    color: #231815;
+    line-height: 25px;
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 25px;
+    text-align: left;
+    font-weight: bold;
+}
+
+footer a {
+    color: #231815;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: #231815;
+    text-decoration: none;
+}
+
+main {
+    position: absolute;
+    right: 0;
+    width: calc(100% - 555px);
+    top: -20px;
+    right: 0;
+    z-index: 3;
+}
+
+main svg {
+    width: 100%;
+    top: 0
+}
+
+main svg a g.yellow {
+    opacity: 0;
+    transition: all 0.2s;
+}
+
+
+/* main svg a g.yellow.on,
+main svg a g.yellow.on {
+    opacity: 1 !important;
+    transition: all 0.2s;
+} */
+
+.pc2bg.on,
+.pc3bg.on,
+.pc4bg.on,
+.pc1bg.on,
+.gbtnbg.on {
+    opacity: 0;
+    transition: all 0.2s;
+}
+
+#pc1-1-yellow.on,
+#pc1-2-yellow.on,
+#pc1-3-yellow.on,
+#pc2-1-yellow.on,
+#pc2-2-yellow.on,
+#pc2-3-yellow.on,
+#pc3-1-yellow.on,
+#pc3-2-yellow.on,
+#pc3-3-yellow.on,
+#pc4-1-yellow.on,
+#pc4-2-yellow.on,
+#pc4-3-yellow.on {
+    opacity: 1;
+    transition: all 0.2s;
+}
+
+.pc1-1:hover .yellow,
+.pc1-2:hover .yellow,
+.pc1-3:hover .yellow,
+.pc2-1:hover .yellow,
+.pc2-2:hover .yellow,
+.pc2-3:hover .yellow,
+.pc3-1:hover .yellow,
+.pc3-2:hover .yellow,
+.pc3-3:hover .yellow,
+.pc4-1:hover .yellow,
+.pc4-2:hover .yellow,
+.pc4-3:hover .yellow {
+    opacity: 1;
+    transition: all 0.2s;
+}
+
+.st51 {
+    fill: #FFF000;
+}
+
+.pc1-1:focus .yellow,
+.pc1-2:focus .yellow,
+.pc1-3:focus .yellow,
+.pc2-1:focus .yellow,
+.pc2-2:focus .yellow,
+.pc2-3:focus .yellow,
+.pc3-1:focus .yellow,
+.pc3-2:focus .yellow,
+.pc3-3:focus .yellow,
+.pc4-1:focus .yellow,
+.pc4-2:focus .yellow,
+.pc4-3:focus .yellow {
+    opacity: 1;
+    transition: all 0.2s;
+}
+
+.submenu li.nsdnmenu2 span {
+    display: flex;
+}
+
+.submenu li .sub_btn5 span {
+    background: url(../img/btn2_bg.svg) center/contain no-repeat;
+}
+
+.submenu li.nsdnmenu:hover>a.sub_btn5:hover span {
+    background: url(../img/btn2_bg_hover.svg) center/contain no-repeat;
+}
+
+.sub_btn5 span:before {
+    content: "";
+    background: url(../img/search.svg) 0 0/contain no-repeat;
+    width: 50px;
+    height: 45px;
+    display: block;
+    margin-right: 10px;
+}
