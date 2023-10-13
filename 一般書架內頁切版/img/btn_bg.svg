@@ -1,0 +1,29 @@
+<svg id="btn_bg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="274.875" height="67.766" viewBox="0 0 274.875 67.766">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="矩形_3042" data-name="矩形 3042" width="274.875" height="67.766" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="矩形_3041" data-name="矩形 3041" width="274.875" height="67.766" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="矩形_3038" data-name="矩形 3038" width="270.438" height="63.047" transform="translate(3.858 4.141)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="组_7240" data-name="组 7240" clip-path="url(#clip-path)">
+    <g id="组_7239" data-name="组 7239">
+      <g id="组_7238" data-name="组 7238" clip-path="url(#clip-path-2)">
+        <g id="组_7237" data-name="组 7237" opacity="0.63">
+          <g id="组_7236" data-name="组 7236">
+            <g id="组_7235" data-name="组 7235" clip-path="url(#clip-path-3)">
+              <path id="路径_4619" data-name="路径 4619" d="M267.973,67.188H10.182a6.343,6.343,0,0,1-6.324-6.324v-50.4a6.343,6.343,0,0,1,6.324-6.324H267.973a6.343,6.343,0,0,1,6.324,6.324v50.4a6.343,6.343,0,0,1-6.324,6.324" fill="#c8c9ca"/>
+            </g>
+          </g>
+        </g>
+        <rect id="矩形_3039" data-name="矩形 3039" width="270.439" height="63.047" rx="6.324" transform="translate(3.858 4.141)" fill="none" stroke="#595757" stroke-miterlimit="10" stroke-width="1.157"/>
+        <path id="路径_4620" data-name="路径 4620" d="M264.694,63.625H6.9A6.342,6.342,0,0,1,.579,57.3V6.9A6.342,6.342,0,0,1,6.9.578H264.694A6.342,6.342,0,0,1,271.017,6.9V57.3a6.342,6.342,0,0,1-6.323,6.324" fill="#fff"/>
+        <rect id="矩形_3040" data-name="矩形 3040" width="270.439" height="63.047" rx="6.324" transform="translate(0.579 0.578)" fill="none" stroke="#595757" stroke-miterlimit="10" stroke-width="1.157"/>
+      </g>
+    </g>
+  </g>
+</svg>

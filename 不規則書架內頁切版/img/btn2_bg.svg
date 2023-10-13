@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="btn_bg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="274.9px" height="67.8px" viewBox="0 0 274.9 67.8" style="enable-background:new 0 0 274.9 67.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{clip-path:url(#SVGID_4_);}
+	.st2{opacity:0.63;}
+	.st3{clip-path:url(#SVGID_6_);}
+	.st4{fill:#FFDAA4;}
+	.st5{fill:none;stroke:#595757;stroke-width:1.157;stroke-miterlimit:10;}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" y="0" width="274.9" height="67.8"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st0">
+		<g>
+			<g id="组_7240">
+				<defs>
+					<rect id="SVGID_3_" y="0" width="274.9" height="67.8"/>
+				</defs>
+				<clipPath id="SVGID_4_">
+					<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+				</clipPath>
+				<g id="组_7239" class="st1">
+					<g id="组_7238">
+						<g id="组_7237" class="st2">
+							<g id="组_7236">
+								<defs>
+									<rect id="SVGID_5_" x="3.9" y="4.1" width="270.4" height="63"/>
+								</defs>
+								<clipPath id="SVGID_6_">
+									<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+								</clipPath>
+								<g id="组_7235" class="st3">
+									<path id="路径_4619" class="st4" d="M268,67.2H10.2c-3.5,0-6.3-2.8-6.3-6.3V10.5c0-3.5,2.8-6.3,6.3-6.3H268
+										c3.5,0,6.3,2.8,6.3,6.3v50.4C274.3,64.4,271.5,67.2,268,67.2"/>
+								</g>
+							</g>
+						</g>
+						<path id="矩形_3039" class="st5" d="M10.2,4.1H268c3.5,0,6.3,2.8,6.3,6.3v50.4c0,3.5-2.8,6.3-6.3,6.3H10.2
+							c-3.5,0-6.3-2.8-6.3-6.3V10.5C3.9,7,6.7,4.1,10.2,4.1z"/>
+						<path id="路径_4620" class="st4" d="M264.7,63.6H6.9c-3.5,0-6.3-2.8-6.3-6.3V6.9c0-3.5,2.8-6.3,6.3-6.3h257.8
+							c3.5,0,6.3,2.8,6.3,6.3v50.4C271,60.8,268.2,63.6,264.7,63.6"/>
+						<path id="矩形_3040" class="st5" d="M6.9,0.6h257.8c3.5,0,6.3,2.8,6.3,6.3v50.4c0,3.5-2.8,6.3-6.3,6.3H6.9
+							c-3.5,0-6.3-2.8-6.3-6.3V6.9C0.6,3.4,3.4,0.6,6.9,0.6z"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

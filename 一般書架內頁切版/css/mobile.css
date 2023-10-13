@@ -1,0 +1,194 @@
+@media screen and (max-width:1744px) {
+    .width1744 {
+        width: calc( 100% - 20px);
+        margin: auto;
+    }
+    .submenu {
+        display: grid;
+        margin: 23px 0;
+    }
+    .submenu li {
+        flex-direction: column;
+    }
+    .submenu li>.hasChild {
+        position: relative;
+        left: 0;
+        display: none;
+        width: 100%;
+    }
+    .submenu li:hover>.hasChild,
+    .submenu li:focus-within .hasChild {
+        display: block;
+    }
+    main {
+        width: calc(100% - 350px);
+        top: 0;
+        right: 0;
+    }
+    .submenu li>.hasChild li a {
+        width: 100%;
+    }
+    .submenu li span {
+        display: flex;
+        height: 87px;
+        width: 300px;
+    }
+    .submenu li {
+        width: 300px;
+    }
+    .submenu li>.hasChild {
+        padding-left: 0;
+    }
+    .sub_btn1 span:before {
+        content: "";
+        background: url(../img/mo_btn1_ico.svg) center/contain no-repeat;
+        width: 76px;
+        height: 53px;
+        display: block;
+    }
+    .sub_btn2 span:before {
+        content: "";
+        background: url(../img/mo_btn2_ico.svg) center/contain no-repeat;
+        width: 76px;
+        height: 53px;
+        display: block;
+    }
+    .sub_btn3 span:before {
+        content: "";
+        background: url(../img/mo_btn3_ico.svg) center/contain no-repeat;
+        width: 76px;
+        height: 53px;
+        display: block;
+    }
+    .sub_btn4 span:before {
+        content: "";
+        background: url(../img/mo_btn4_ico.svg) center/contain no-repeat;
+        width: 76px;
+        height: 53px;
+        display: block;
+    }
+    .Click_menu li a:before {
+        content: "";
+        width: 42px;
+        height: 42px;
+        display: block;
+        margin-right: 10px;
+    }
+    .sub_btn1-1:before {
+        background: url(../img/mo_btn_line/mo_btn1-1_line.svg) center/contain no-repeat;
+    }
+    .sub_btn1-1:hover:before {
+        background: url(../img/mo_btn/mo_btn1-1.svg) center/contain no-repeat;
+    }
+    .sub_btn1-2:before {
+        background: url(../img/mo_btn_line/mo_btn1-2_line.svg) center/contain no-repeat;
+    }
+    .sub_btn1-2:hover:before {
+        background: url(../img/mo_btn/mo_btn1-2.svg) center/contain no-repeat;
+    }
+    .sub_btn1-3:before {
+        background: url(../img/mo_btn_line/mo_btn1-3_line.svg) center/contain no-repeat;
+    }
+    .sub_btn1-3:hover:before {
+        background: url(../img/mo_btn/mo_btn1-3.svg) center/contain no-repeat;
+    }
+    .sub_btn2-1:before {
+        background: url(../img/mo_btn_line/mo_btn2-1_line.svg) center/contain no-repeat;
+    }
+    .sub_btn2-1:hover:before {
+        background: url(../img/mo_btn/mo_btn2-1.svg) center/contain no-repeat;
+    }
+    .sub_btn2-2:before {
+        background: url(../img/mo_btn_line/mo_btn2-2_line.svg) center/contain no-repeat;
+    }
+    .sub_btn2-2:hover:before {
+        background: url(../img/mo_btn/mo_btn2-2.svg) center/contain no-repeat;
+    }
+    .sub_btn2-3:before {
+        background: url(../img/mo_btn_line/mo_btn2-3_line.svg) center/contain no-repeat;
+    }
+    .sub_btn2-3:hover:before {
+        background: url(../img/mo_btn/mo_btn2-3.svg) center/contain no-repeat;
+    }
+    .sub_btn3-1:before {
+        background: url(../img/mo_btn_line/mo_btn3-1_line.svg) center/contain no-repeat;
+    }
+    .sub_btn3-1:hover:before {
+        background: url(../img/mo_btn/mo_btn3-1.svg) center/contain no-repeat;
+    }
+    .sub_btn3-2:before {
+        background: url(../img/mo_btn_line/mo_btn3-2_line.svg) center/contain no-repeat;
+    }
+    .sub_btn3-2:hover:before {
+        background: url(../img/mo_btn/mo_btn3-2.svg) center/contain no-repeat;
+    }
+    .sub_btn3-3:before {
+        background: url(../img/mo_btn_line/mo_btn3-3_line.svg) center/contain no-repeat;
+    }
+    .sub_btn3-3:hover:before {
+        background: url(../img/mo_btn/mo_btn3-3.svg) center/contain no-repeat;
+    }
+    .sub_btn4-1:before {
+        background: url(../img/mo_btn_line/mo_btn4-1_line.svg) center/contain no-repeat;
+    }
+    .sub_btn4-1:hover:before {
+        background: url(../img/mo_btn/mo_btn4-1.svg) center/contain no-repeat;
+    }
+    .sub_btn4-2:before {
+        background: url(../img/mo_btn_line/mo_btn4-2_line.svg) center/contain no-repeat;
+    }
+    .sub_btn4-2:hover:before {
+        background: url(../img/mo_btn/mo_btn4-2.svg) center/contain no-repeat;
+    }
+    .sub_btn4-3:before {
+        background: url(../img/mo_btn_line/mo_btn4-3_line.svg) center/contain no-repeat;
+    }
+    .sub_btn4-3:hover:before {
+        background: url(../img/mo_btn/mo_btn4-3.svg) center/contain no-repeat;
+    }
+    h1 a {
+        width: 237px;
+    }
+}
+
+@media screen and (max-width:724px) {
+    .main2 {
+        position: relative;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .submenu li {
+        width: 100%;
+    }
+    .submenu li span {
+        width: 100%;
+    }
+    main {
+        display: none;
+    }
+    header {
+        display: grid;
+        justify-content: center;
+    }
+    .submenu {
+        justify-content: center;
+    }
+    h1 a {
+        background: url(../img/index_logo.svg) 0 0/contain no-repeat;
+        height: 75px;
+        width: 100%;
+        display: block;
+    }
+    .width1744 {
+        width: 90%;
+    }
+    header {
+        width: 100%;
+    }
+    footer {
+        display: grid;
+        width: 100%;
+    }
+}

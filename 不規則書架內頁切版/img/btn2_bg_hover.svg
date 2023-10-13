@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="9.7cm" height="2.39cm" viewBox="0 0 274.88 67.77">
+  <defs>
+    <clipPath id="a">
+      <rect width="274.88" height="67.77" style="fill: none"/>
+    </clipPath>
+    <clipPath id="c">
+      <rect x="3.86" y="4.14" width="270.44" height="63.05" style="fill: none"/>
+    </clipPath>
+  </defs>
+  <title>btn2_bg_hover</title>
+  <g style="clip-path: url(#a)">
+    <g style="clip-path: url(#a)">
+      <g>
+        <g style="opacity: 0.6299999952316284">
+          <g style="clip-path: url(#c)">
+            <path d="M268,67.19H10.18a6.34,6.34,0,0,1-6.32-6.32V10.46a6.34,6.34,0,0,1,6.32-6.32H268a6.34,6.34,0,0,1,6.32,6.32v50.4A6.34,6.34,0,0,1,268,67.19" style="fill: #cc9348"/>
+          </g>
+        </g>
+        <rect x="3.86" y="4.14" width="270.44" height="63.05" rx="6.32" ry="6.32" style="fill: none;stroke: #595757;stroke-miterlimit: 10;stroke-width: 1.156999945640564px"/>
+        <path d="M264.69,63.62H6.9A6.34,6.34,0,0,1,.58,57.3V6.9A6.34,6.34,0,0,1,6.9.58H264.69A6.34,6.34,0,0,1,271,6.9V57.3a6.34,6.34,0,0,1-6.32,6.32" style="fill: #f2c18b"/>
+        <rect x="0.58" y="0.58" width="270.44" height="63.05" rx="6.32" ry="6.32" style="fill: none;stroke: #595757;stroke-miterlimit: 10;stroke-width: 1.156999945640564px"/>
+      </g>
+    </g>
+  </g>
+</svg>
